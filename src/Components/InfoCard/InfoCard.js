@@ -4,7 +4,7 @@ import map from '../../assets/icons/marker.svg';
 import phone from '../../assets/icons/phone.svg';
 const InfoCard = () => {
   return (
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 px-12 mt-0 lg:mt-14">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 px-12 mt-0 lg:py-28">
       <div class="card lg:card-side bg-gradient-to-r from-secondary to-primary shadow-xl">
         <figure class='pl-2 mt-2 lg:mt-0'>
           <img
@@ -15,6 +15,7 @@ const InfoCard = () => {
         <div class="card-body text-white">
           <h2 class="card-title">Opening Hours</h2>
           <p>Click the button to listen on Spotiwhy app.</p>
+          
         </div>
       </div>
       <div class="card lg:card-side bg-accent shadow-xl">
