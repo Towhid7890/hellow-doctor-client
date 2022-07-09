@@ -26,7 +26,7 @@ const ContactUs = () => {
             ></textarea>{" "}
             <br />
             <input
-              className="btn-primary px-4 py-1 rounded text-white "
+              className="bg-gradient-to-r from-secondary to-primary uppercase px-5 py-2 rounded text-white "
               type="submit"
               value="Submit"
             />
