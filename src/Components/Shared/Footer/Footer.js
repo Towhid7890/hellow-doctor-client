@@ -4,33 +4,31 @@ import appointment from "../../../assets/images/footer.png";
 const Footer = () => {
   return (
     <div style={{ background: `url(${appointment})`, backgroundSize: "cover" }}>
-      <footer class="footer p-10 text-black-content">
+      <footer className="footer p-10 py-12 text-black-content">
         <div>
-          <span class="footer-title">Services</span>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+          <span className="footer-title">Services</span>
+          <a className="">Branding</a>
+          <a className="link link-hover">Design</a>
+          <a className="link link-hover">Marketing</a>
+          <a className="link link-hover">Advertisement</a>
         </div>
         <div>
-          <span class="footer-title">Our Health</span>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+          <span className="footer-title">Our Health</span>
+          <a className="link link-hover">About us</a>
+          <a className="link link-hover">Contact</a>
+          <a className="link link-hover">Jobs</a>
+          <a className="link link-hover">Press kit</a>
         </div>
         <div>
-          <span class="footer-title">Our Address</span>
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </div>
-      </footer>
-      <footer class="footer footer-center p-4 bg-base-300 text-base-content">
-        <div>
-          <p>Copyright © 2022 - All right reserved by Hello Doctor Ltd</p>
+          <span className="footer-title">Our Address</span>
+          <a className="link link-hover">Terms of use</a>
+          <a className="link link-hover">Privacy policy</a>
+          <a className="link link-hover">Cookie policy</a>
         </div>
       </footer>
+      <div className="text-center py-3">
+        <p>Copyright © 2022 - All right reserved by Hello Doctor Ltd</p>
+      </div>
     </div>
   );
 };
