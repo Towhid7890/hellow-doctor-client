@@ -4,8 +4,8 @@ import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 const AppoinmentBanner = ({ date, setDate }) => {
   return (
-    <div class="hero mt-0 lg:mt-20">
-      <div class="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero mt-0 lg:mt-20">
+      <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={chair}
           alt=""
