@@ -6,7 +6,7 @@ const Service = ({ service, setTreatment }) => {
     <div>
       <div className="card shadow-xl">
         <div className="card-body items-center text-center">
-          <h2 className="card-title">{name}</h2>
+          <h2 className="card-title text-primary">{name}</h2>
           <p>{slots.length} spaces available</p>
           <p>
             {slots.length === 0 ? (
@@ -20,7 +20,7 @@ const Service = ({ service, setTreatment }) => {
               htmlFor="booking-modal"
               disabled={slots.length === 0}
               onClick={() => setTreatment(service)}
-              className="btn modal-button btn-secondary text-white"
+              className="btn btn-sm modal-button btn-secondary text-white"
             >
               Book Appointment
             </label>

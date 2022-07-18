@@ -1,12 +1,13 @@
 import React from "react";
 import { format } from "date-fns/esm";
 
-const BookingModal = ({ treatment, date }) => {
+const BookingModal = ({ treatment, date, setTreatment }) => {
   const { _id, name, slots } = treatment;
   const handleBooking = (event) => {
     event.preventDefault();
     const slot = event.target.slot.value;
     console.log(slot);
+    setTreatment(null);
   };
   return (
     <div>

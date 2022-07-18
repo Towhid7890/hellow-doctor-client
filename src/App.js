@@ -4,6 +4,7 @@ import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Shared/Navbar/Navbar";
 import Appointment from "./Components/Appointment/Appointment";
+import Login from "./Components/Login/Login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           path="/appointment"
           element={<Appointment></Appointment>}
         ></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
     </div>
   );
